@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: "/react-emoji-store/",
+  base: "/emoji-store-demo/",
   plugins: [react()],
   server: {
     fs: {
