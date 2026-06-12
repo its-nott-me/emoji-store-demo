@@ -11,7 +11,7 @@ function App() {
         <div className="hero">
           <div className="badge">React Emoji Library</div>
           <h1>React Emoji Store</h1>
-          <p>An easier way to render Microsoft Fluent Animated Emojis in your React applications.</p>
+          <p>An easier way to render Microsoft Fluent Emojis in your React applications.</p>
           <EmojiGrid />
         </div>
 
@@ -79,10 +79,10 @@ function App() {
               </p>
               <div className="demo-display" style={{ fontSize: '32px' }}>
                 {/* Use an obscure emoji that likely won't have an asset */}
-                <Emoji emoji="🪩" size={48} />
-                <span style={{ marginLeft: '1rem', fontSize: '1rem', color: 'var(--text-muted)' }}>
-                  (Renders as native 🪩 if WebP is missing)
-                </span>
+                <Emoji emoji="🏎️🏁🚥🏆💨" size={48} />
+                {/* <span style={{ marginLeft: '1rem', fontSize: '1rem', color: 'var(--text-muted)' }}>
+                  (Renders as native if WebP is missing)
+                </span> */}
               </div>
             </div>
           </div>

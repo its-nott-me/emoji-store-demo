@@ -8,3 +8,7 @@ This is a demo application showcasing the [react-emoji-store](https://www.npmjs.
 - **Live Preview**: Real-time rendering of emojis within text using the `<TextWithEmoji />` component.
 - **Skin Tone Support**: Built-in support for multiple skin tone variations.
 - **Automatic Fallback**: Graceful fallback to native system emojis if assets are missing.
+
+
+## Live Demo
+Try out react-emoji-store [here](https://its-nott-me.github.io/emoji-store-demo/)

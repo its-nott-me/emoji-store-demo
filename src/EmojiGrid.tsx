@@ -27,7 +27,7 @@ export const EmojiGrid = () => {
     return (
         <div className="emoji-grid-container fade-in">
             {tiles.map((emoji, i) => (
-                <div key={i} className="grid-tile">
+                <div key={i} className="grid-tile" onClick={() => setCenterEmoji(emoji)}>
                     <Emoji emoji={emoji} size={24} />
                 </div>
             ))}

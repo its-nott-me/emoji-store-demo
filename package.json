@@ -15,7 +15,7 @@
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-emoji-store": "file:../react-emoji-store-1.0.0.tgz"
+    "react-emoji-store": "file:../react-emoji-store-1.1.0.tgz"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
